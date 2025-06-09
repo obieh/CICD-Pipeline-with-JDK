@@ -82,3 +82,24 @@
 
 ![](./img/status-jenkins.png)
 
+### Install Docker
+
+```bash
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+![](./img/install-docker.png)
+
+![](./img/start-docker.png)
+
+### Add Jenkins to Docker group (for access)
+```bash
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+```
+![](./img/restart-jenkins.png)
+
