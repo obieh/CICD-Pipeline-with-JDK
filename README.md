@@ -31,6 +31,8 @@
 
 [Jenkins release page](./img/repo-issue.png)
 
+![](./img/signed-repo.png)
+
 ![](./img/curl-&-echo2.png)
 
 ### Install Jenkins
@@ -59,4 +61,24 @@
 ### Check if java has been installed and if port 8080 is already in use by another resource.
 
 ![](./img/sudo-lsof-jenkins.png)
+
+### Not sure what the issue is but upgrade the java version to jdk-17 then restart jenkins
+
+* Run `sudo apt install openjdk-17-jre -y` to install jdk-17
+
+![](./img/UPDATE-JAVA.png)
+
+
+### Check to see if jenkins service is running after updating Java.
+
+* Run `sudo apt update -y` to update server after java installation update.
+* Run `sudo systemctl start jenkins`
+
+![](/img/start-jenkins-success.png)
+
+### To further verify if Jenkins is running without any issue.
+
+* Run `sudo systemctl status jenkins`
+
+![](./img/status-jenkins.png)
 
