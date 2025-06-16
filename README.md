@@ -103,3 +103,42 @@ sudo systemctl restart jenkins
 ```
 ![](./img/restart-jenkins.png)
 
+### Confirm if docker is up and running
+
+* Run `docker --version` to see docker version and confirm installation
+
+![](./img/confirm-docker-installation.png)
+
+### Enable outside traffic to the Jenkins server.
+
+* Select the server on AWS ui and click the secuirity group
+
+![](./img/to-edit-inbound-rules.png)
+
+![](./img/click-to-edit-inbound-rule.png)
+
+### Click edit inbound rules to edit allowed traffic
+
+![](./img/click-edit-inbound-to-edith.png)
+
+### Add custome TCP port 0 to 6555 from any IP address and click 'save rules'.
+
+![](./img/edith-inboound-save.png)
+
+### Copy the public IP address of the EC2 server to your browser on port 8080
+
+![](./img/COPY-PUBLIC-IP.png)
+
+![](./img/jenkins-on-browser.png)
+
+### Cat the provided admin secret file path to grab admin password.
+
+* Run `sudo cat /var/lib/jenkins/secrets/initialAdminPasswor`
+
+![](./img/jenkins-secret.png)
+
+![](./img/cat-admin-password.png)
+
+### For thee sake i=of this project simply click 'skip and continue as admin'
+
+![](./img/skip-&-continu-admin.png)
