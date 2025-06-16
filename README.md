@@ -154,3 +154,21 @@ sudo systemctl restart jenkins
 ### For the purpose of this project we will go with 'install suggested plugins'
 
 ![](./img/install-plugin.png)
+
+
+## Run sample Jenkins job
+
+### Click 'create a new job' on the Jenkins UI
+
+![](./img/click-first-job.png)
+
+### Set a name for the new item, select 'pipeline' and click 'OK'
+
+![](./img/jenkins-name-pipeline-ok.png)
+
+### Select 'pipeline script', select 'Hello World' from the drop doen menu and click save.
+
+![](./img/jenkins-sample-script.png)
+
+
+
