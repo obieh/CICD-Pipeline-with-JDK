@@ -142,3 +142,15 @@ sudo systemctl restart jenkins
 ### For thee sake i=of this project simply click 'skip and continue as admin'
 
 ![](./img/skip-&-continu-admin.png)
+
+### Click start using Jenkins to continue
+
+![](./img/start-using-jenkins.png)
+
+### Take note of the IP address and port number then click save and finish
+
+![](./img/save-nd-finish.png)
+
+### For the purpose of this project we will go with 'install suggested plugins'
+
+![](./img/install-plugin.png)
