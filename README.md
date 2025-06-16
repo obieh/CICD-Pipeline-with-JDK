@@ -170,5 +170,12 @@ sudo systemctl restart jenkins
 
 ![](./img/jenkins-sample-script.png)
 
+### Click build now on the jenkins UI dashboard
+
+![](./img/sample-build.png)
+
+### Build Success confirmation
+
+![](./img/sample-script-build-succes.png)
 
 
