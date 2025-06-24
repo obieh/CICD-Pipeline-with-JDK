@@ -231,7 +231,27 @@ sudo systemctl restart jenkins
 
 ![](./img/jenkins-add-git-password.png)
 
-### Select the github username and password just created on 'Credentials'. Make sure the branch is either 'main' or 'master' to match the git repo. The click 'Generate pipeline script'
+### Select the github username and password just created on 'Credentials'. Make sure the branch is either 'main' or 'master' or any branch name to match the git repo. The click 'Generate pipeline script'
 
 ![](./img/generate-pipeline-script.png)
+
+### Click generate pipeline script then copy the script.
+
+![](./img/copy-pipeline-script.png)
+
+### Go back to the Advanced projects option in Jenkins UI and replace the previous "hello World' script with the one you just copied and save.
+
+![](./img/paste-pipeline-script-save.png)
+
+### Build the job to test if Jenkins can connect with your git repo.
+
+![](./img/sample-build.png)
+
+### Build was a success, Jenkins connected to the github repo as desired,
+
+![](./img/build-afta-pipeline%20script.png)
+
+### Details show Jenkins connects to the github repo.
+
+![](./img/buildtets.png)
 
