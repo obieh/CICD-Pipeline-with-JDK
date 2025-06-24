@@ -179,3 +179,16 @@ sudo systemctl restart jenkins
 ![](./img/sample-script-build-succes.png)
 
 
+## Create Web Hook
+
+### Copy git repository URL
+
+![](./img/copy-repo-link.png)
+
+### Go to the Jenkins job click configure
+
+![](./img/click-configure.png)
+
+### Click pipeline syntax
+
+![](./img/pipeline-syntax.png)
