@@ -269,4 +269,15 @@ sudo systemctl restart jenkins
 
 ![](./img/add-web-hook.png)
 
+### You should see a green good sign if the webhook is wroking well.
+
+![](./img/webhook-success.png)
+
+
+## Installing K3s
+* Run `curl -sfL https://get.k3s.io | sh -`
+
+![](./img/install-k3s.png)
+
+
 
