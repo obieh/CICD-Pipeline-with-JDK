@@ -214,3 +214,24 @@ sudo systemctl restart jenkins
 ### Click Generate new token classic
 
 ![](./img/gen-new-token.png.png)
+
+### Create a name and duration for the access token, Check every other parent or child box.
+
+![](./img/token-name.png)
+
+### Click 'Generate token' to generate web token.
+
+![](./img/click-gen-token.png)
+
+### Copy the generated token and then go to your Jenkins UI.
+
+![](./img/copy-token.png)
+
+### Paste the token in the 'password input. Give an ID and click 'Add'
+
+![](./img/jenkins-add-git-password.png)
+
+### Select the github username and password just created on 'Credentials'. Make sure the branch is either 'main' or 'master' to match the git repo. The click 'Generate pipeline script'
+
+![](./img/generate-pipeline-script.png)
+
