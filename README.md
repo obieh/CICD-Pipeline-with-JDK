@@ -255,3 +255,18 @@ sudo systemctl restart jenkins
 
 ![](./img/buildtets.png)
 
+### Configure webhook. Head over to your github click on the repo. While on the repo, click settings.
+
+![](./img/webhook1.png)
+
+### Click 'webhook' option on the following page on the repo UI.
+
+![](./img/webhook2.png)
+
+### Type the Jenkins server public ip, Jenkins port number, Then click 'add webhook' at the page bottom.
+
+* `http://<server-IP>:8080/git-hub-webhook/`
+
+![](./img/add-web-hook.png)
+
+
