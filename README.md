@@ -192,3 +192,25 @@ sudo systemctl restart jenkins
 ### Click pipeline syntax
 
 ![](./img/pipeline-syntax.png)
+
+### In the next Jenkins UI page select 'checkout from version control' for sample step
+### Under SCM, select 'git'. Paste your git repo url previously copied on the 'Repository URL', now click 'Add' to add your git credentials for Jenkins Authentication.
+
+![](./img/paste-git-url.png)
+
+
+### Select Jenkins and the credential kind UI will pop up. Select username and 'password for kind'. Select global for scope and add your github username for 'username', Now generate a tokne from your githubrepo for password
+
+![](./img/adding-password.png)
+
+### Go to your github account sethings, developer settings then personal access token(classic)
+
+![](./img/git-settings.png)
+
+### Click on 'Developer Sething'
+
+![](./img/git-dev-settings.png)
+
+### Click Generate new token classic
+
+![](./img/gen-new-token.png.png)
