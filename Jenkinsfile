@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub') // Set in Jenkins
-        IMAGE_NAME = 'obieh/my-node-app'
+        IMAGE_NAME = 'obieh/node-app'
     }
     stages {
         stage('Clone') {
