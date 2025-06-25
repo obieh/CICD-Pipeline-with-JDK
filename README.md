@@ -273,6 +273,25 @@ sudo systemctl restart jenkins
 
 ![](./img/webhook-success.png)
 
+## Docker to Jenkins Authorization
+
+* Head over to your docker account. Create one [Docker hub](https://hub.docker.com/) if you do not have one already.
+
+![](./img/docker-token-1.png)
+
+* Select 'personal access token' by the left of dockerhub UI
+
+![](./img/docker-token-2.png)
+
+* Add a description, Expiration date for the token and maake sure the Access permission is set to "Read, Write, Delete"  
+
+![](./img/docker-token-3.png)
+
+^ copy the token and head over to your Jenkins server
+
+![](./img/docker-token-4.png)
+
+
 
 ## Installing K3s
 
