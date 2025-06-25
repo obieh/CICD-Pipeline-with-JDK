@@ -275,6 +275,9 @@ sudo systemctl restart jenkins
 
 
 ## Installing K3s
+
+### We wil be using k3s, a streamlined version of k8s for this project only.
+
 * Run `curl -sfL https://get.k3s.io | sh -`
 
 ![](./img/install-k3s.png)
