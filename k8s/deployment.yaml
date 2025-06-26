@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: yourdockerhubusername/my-node-app:latest
+        image: yourdockerhubusername/node-app:latest
         ports:
         - containerPort: 3000
