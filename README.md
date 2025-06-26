@@ -295,6 +295,13 @@ sudo systemctl restart jenkins
 
  ![](./img/docker-jenkins-1.png)
 
+ * Click 'Credeentials' on the following Jenkins UI.
+
+ ![](./img/docker-jenkins2.png)
+
+ * Click '(global)' and Add credentials.
+
+ ![](./img/docker-jenkins3.png)
  
 
 ## Installing K3s
