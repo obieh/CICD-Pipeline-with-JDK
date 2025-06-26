@@ -291,7 +291,11 @@ sudo systemctl restart jenkins
 
 ![](./img/docker-token-4.png)
 
+* On the Jenkins UI click 'manage jenkins'
 
+ ![](./img/docker-jenkins-1.png)
+
+ 
 
 ## Installing K3s
 
