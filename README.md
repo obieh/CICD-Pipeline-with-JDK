@@ -265,7 +265,7 @@ sudo systemctl restart jenkins
 
 ### Type the Jenkins server public ip, Jenkins port number, Then click 'add webhook' at the page bottom.
 
-* `http://<server-IP>:8080/git-hub-webhook/`
+* `http://<server-IP>:8080/github-webhook/`
 
 ![](./img/add-web-hook.png)
 
@@ -316,4 +316,14 @@ sudo systemctl restart jenkins
 ![](./img/install-k3s.png)
 
 
+* Install kubectl, run `sudo apt install kubectl`
 
+* Verify kubectl installation.
+
+![](./img/kubectl-verify.png)
+
+* Due to the warning, give user read permission to k3s.
+
+![](./img/kube-perm.png)
+
+## Test webhook, docker image build and entire pipeline
