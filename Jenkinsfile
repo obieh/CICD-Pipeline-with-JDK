@@ -7,7 +7,8 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', 'https://github.com/obieh/CICD-Pipeline-with-JDK.git'
+                git branch: 'main', url: 'https://github.com/obieh/CICD-Pipeline-with-JDK.git'
+
             }
         }
         stage('Build Docker Image') {
