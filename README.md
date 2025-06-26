@@ -302,7 +302,10 @@ sudo systemctl restart jenkins
  * Click '(global)' and Add credentials.
 
  ![](./img/docker-jenkins3.png)
- 
+
+ * Select 'Username with password' for Kind. Select 'Global(Jenkins..)' or Scope. Type your Dockerhub username for 'Username'. Paste the token generated form you dockerhub account for 'Password'. Set ID, Description if you want and click 'Create'
+
+ ![](./img/docker-jenkins4.png)
 
 ## Installing K3s
 
