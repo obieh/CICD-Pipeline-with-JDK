@@ -29,7 +29,6 @@ pipeline {
         stage('Deploy to K3s') {
             steps {
                 sh 'kubectl apply -f k8s/'
-                sh 'kubectl rollout restart deployment webapp'
             }
         }
     }
