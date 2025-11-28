@@ -326,4 +326,4 @@ sudo systemctl restart jenkins
 
 ![](./img/kube-perm.png)
 
-## Test webhook, docker image build and entire pipeline
+## Test webhook, docker image build and entire pipeline.
