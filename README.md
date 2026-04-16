@@ -4,7 +4,7 @@
 
 ### Install Jenkins dependancies.
 
-* Launch an ec2 instance in your AWS account.
+* Launch an ec2 instance in your AWS account
 * Run `sudo apt update && sudo apt upgrade -y`
 ![](./img/sudo-update-upgrade.png)
 
